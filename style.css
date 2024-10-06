@@ -1,0 +1,213 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #81b29a;
+    text-align: center;
+    justify-content: center;
+}
+
+#mainContainer {
+    height: 63vh;
+    width: 57vh;
+    background-color: white;
+    display: inline-flex;
+    align-items: center ;
+    flex-wrap: wrap;
+    margin-top: 20vmin;
+    border-radius: 6%;
+}
+
+#heading{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5vmin;
+    margin: 3.5vmin  2vmin 2vmin 3.5vmin;
+    margin-bottom: 1.5rem;
+}
+
+.input{
+    width: 40vmin;
+    height: 12vmin;
+    display: block;
+    margin-left: 5%;
+    margin-right: 0%;
+    text-align: start;
+}
+
+#label{
+    font-size: 3vmin;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5%;
+    font-weight: 500;
+    margin-bottom: 0.75vmin;
+}
+
+.inputField{
+    height: 5vmin;
+    width: 45vmin;
+    margin-left: 5%;
+    margin-bottom: 2px;
+    border-radius: 1.5vmin;
+    border-color: #1e3b25;
+    border-style: solid;
+    border-width: 0.70px;
+    font-size: 2.5vmin;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    padding-left: 2vmin;
+    padding-right: 1vmin;
+    color: #1e3b25;
+}
+
+.fromTo{
+    height: 40%;
+    width: 80%;
+    margin-left: 6.5vmin;
+    margin-top: 2px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fromParent{
+    height: 50%;
+    width: 45%;
+    margin-top: 3vmin;
+    border-radius: 1.5vmin;
+    border-color: #656d4a;
+    border-style: solid;
+    border-width: 0.70px;
+    background-color: #d4ece2;
+}
+
+#from{
+    font-size: 3.5vmin;
+    font-variant: small-caps;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;     
+}
+
+#flagCombo1{
+    margin-top: 0.75vmin;
+    height: 43%;
+    width: 75%;
+    margin-left: 0.8vmin;
+    /* background-color: #656d4a; */
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 1vmin;
+    border-width: 0.70px;
+    background-color: #d4ece2;
+    cursor: pointer;
+}   
+
+#toImage{
+    height: 5vmin;
+}
+
+#fromSelect{
+    cursor: pointer;
+    margin-left: 5px;
+    height: 4vmin;
+    width: 8vmin;
+    font-size: 2.5vmin;
+    font-variant: small-caps;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#exchangeIcon{
+    height: 3vmin;
+    width: 3vmin;
+    padding: 1%;
+    margin-top: 17%;
+}
+
+.toParent{
+    height: 50%;
+    width: 45%;
+    margin-top: 3vmin;
+    border-radius: 1.5vmin;
+/*     border-color: #656d4a; */
+    border-style: solid;
+    border-width: 0.70px;
+    background-color: #d4ece2;
+}
+
+#to{
+    font-size: 3.5vmin;
+    font-variant: small-caps;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;     
+}
+
+#flagCombo2{
+    margin-top: 0.75vmin;
+    height: 43%;
+    width: 75%;
+    margin-left: 0.8vmin;
+    /* background-color: #656d4a; */
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 1vmin;
+    border-width: 0.70px;
+    background-color: #d4ece2;
+    cursor: pointer;
+}   
+
+#toSelect{
+    cursor: pointer;
+    margin-left: 5px;
+    height: 4vmin;
+    width: 8vmin;
+    font-size: 2.5vmin;
+    font-variant: small-caps;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.convertionFT{
+    height: 22%;
+    width: 67%;
+    border-radius: 1.5vmin;
+   
+    margin-top: 4vmin;
+    align-items: start;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+}
+
+p{
+    margin-top: 1vmin;
+    font-size: 3vmin;
+    font-variant: small-caps;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;     
+}
+
+.equal {
+    padding-left: 1.5vmin;
+    padding-right: 1.5vmin;
+}
+
+#exchangeBtn{
+    width: 80vh;
+    height: 7vmin;
+    margin: 8% 25% 6% 25%;
+    font-size: 3vmin;
+    margin-bottom: 52vmin;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    border-radius: 1.5vmin;
+    border-color: white;
+    background-color:#4e846a;
+    color: white;
+    cursor: pointer;
+}
